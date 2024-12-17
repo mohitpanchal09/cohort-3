@@ -5,6 +5,7 @@ import { FaChartBar } from "react-icons/fa";
 import { RiGalleryFill } from "react-icons/ri";
 import { CgProfile } from "react-icons/cg";
 import Button from './Button';
+import Main from './ Main';
 
 export default function SideBar() {
   return (
@@ -17,7 +18,7 @@ export default function SideBar() {
             <NavItem icon={<IoSettings/>} item='Settings'/>
         </div>
         <div className='w-full h-screen'>
-
+            <Main/>
         </div>
     </div>
   )
