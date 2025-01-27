@@ -5,10 +5,7 @@
   "exports": {
     "./button": "./src/button.tsx",
     "./card": "./src/card.tsx",
-    "./code": "./src/code.tsx",
-    "./text-input": "./src/text-input.tsx"
-
-    
+    "./code": "./src/code.tsx"
   },
   "scripts": {
     "lint": "eslint . --max-warnings 0",
@@ -16,10 +13,10 @@
     "check-types": "tsc --noEmit"
   },
   "devDependencies": {
-    "@repo/eslint-config": "*",
-    "@repo/typescript-config": "*",
-    "@turbo/gen": "^2.3.3",
-    "@types/node": "^22.10.9",
+    "@repo/eslint-config": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
+    "@turbo/gen": "^2.3.4",
+    "@types/node": "^22.10.10",
     "@types/react": "19.0.8",
     "@types/react-dom": "19.0.3",
     "typescript": "5.7.3"
